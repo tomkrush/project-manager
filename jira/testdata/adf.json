@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This is some sample text! This is "
+        },
+        {
+          "type": "text",
+          "text": "bold",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and this is "
+        },
+        {
+          "type": "text",
+          "text": "italic.",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " I also have "
+        },
+        {
+          "type": "text",
+          "text": "underline",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and "
+        },
+        {
+          "type": "text",
+          "text": "strikethrough",
+          "marks": [
+            {
+              "type": "strike"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and "
+        },
+        {
+          "type": "text",
+          "text": "subscript",
+          "marks": [
+            {
+              "type": "subsup",
+              "attrs": {
+                "type": "sub"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and "
+        },
+        {
+          "type": "text",
+          "text": "superscript",
+          "marks": [
+            {
+              "type": "subsup",
+              "attrs": {
+                "type": "sup"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and "
+        },
+        {
+          "type": "text",
+          "text": "code",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "I have "
+        },
+        {
+          "type": "text",
+          "text": "red",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#bf2600"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and "
+        },
+        {
+          "type": "text",
+          "text": "blue",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#0747a6"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " text."
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "A bullet list is surrounded by the bulletList type."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Each bullet has a listItem."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "A numbered list has a similar structure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Except the parent is called orderedList."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": []
+    }
+  ]
+}
